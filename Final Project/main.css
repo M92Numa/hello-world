@@ -1,0 +1,346 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), 
+        url(Images/Shark2.png);
+    background-size: 15%;
+    background-position: 20px 30px;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.social img {
+    width: 80px;
+    margin: 10px;
+}
+
+.youtube {
+    object-fit: cover;
+}
+
+.itunes {
+    object-fit: cover;
+}
+
+a img {
+    width: 100%;
+}
+
+.TLR {
+    width: 350px;
+}
+
+.feb {
+    width: 200px;
+    display: flex;
+    margin: 210px;
+    position: relative;
+    top: -467px;
+    left: 210px;
+    justify-content: space-between;
+}
+
+.amof {
+    width: 205px;
+    display: flex;
+    margin: 110px;
+    position: relative;
+    top: -880px;
+    left: 580px;
+    justify-content: space-between;
+}
+
+.hwb {
+    width: 205px;
+    display: flex;
+    margin: 110px;
+    position: relative;
+    top: -1190px;
+    left: 890px;
+    justify-content: space-between;
+}
+
+.rex {
+    width: 205px;
+    display: flex;
+    margin: 300px;
+    position: relative;
+    top: -1390px;
+    left: 110px;
+    justify-content: space-between;
+}
+
+.dead {
+    width: 205px;
+    display: flex;
+    margin: 250px;
+    position: relative;
+    top: -1900px;
+    left: 441px;
+    justify-content: space-between;
+}
+
+.steve {
+    width: 205px;
+    display: flex;
+    margin: 200px;
+    position: relative;
+    top: -2360px;
+    left: 800px;
+    justify-content: space-between;
+}
+
+.glenn {
+    width: 195px;
+    display: flex;
+    margin: 245px;
+    position: relative;
+    top: -2550px;
+    left: 180px;
+    justify-content: space-between;
+}
+
+.content {
+    position: relative;
+    margin: auto;
+    top: 40px;
+    left: 200px;
+}
+
+.block {
+    width: 400px;
+    height: 350px;
+    position: relative;
+	margin: 40px 10px;
+    top: -3265px;
+    left: -45px;
+    padding: 60px 80px;
+    justify-content: space-between;
+	border-radius: 70px;
+	backdrop-filter: blur(115px);
+	text-shadow: 11px 20px 43px hsla(0, 0%, 0%, 0.2);
+}
+.content h1 {
+	font-family: "Lily Script One", cursive;
+	margin-top: 50px;
+	margin-bottom:50px;
+	color: black;
+}
+.content p {
+    font-family: "Roboto", sans-serif;
+	padding-left: 30px;
+	line-height: 1.4;
+	margin-top: 55px;
+	color: green;
+}
+
+/* Classes Below are for the separate band pages */
+
+.main-image {
+    width: 500px;
+}
+
+.band-content {
+    display: flex;
+}
+
+.band-content h1 {
+    font-family: "Lily Script One", cursive;
+	margin-top: 50px;
+	margin-bottom:50px;
+	color: goldenrod;
+}
+
+.band-content p {
+    font-family: "Roboto", sans-serif;
+	padding-left: 20px;
+	line-height: 1.4;
+	margin-top: 15px;
+	color: red;
+}
+
+.amof3 {
+    width: 295px;
+    display: flex;
+    margin: 210px;
+    position: relative;
+    top: -147px;
+    left: 20px;
+    justify-content: space-between;
+}
+
+.amoffinal {
+    width: 295px;
+    display: flex;
+    margin: 210px;
+    position: relative;
+    top: -650px;
+    left: 330px;
+    justify-content: space-between;
+}
+
+.amof4 {
+    width: 295px;
+    display: flex;
+    margin: 210px;
+    position: relative;
+    top: -847px;
+    left: 135px;
+    justify-content: space-between;
+}
+
+.stella {
+    width: 295px;
+    display: flex;
+    margin: 210px;
+    position: relative;
+    top: -147px;
+    left: -30px;
+    justify-content: space-between;
+}
+
+.feb1 {
+    width: 295px;
+    display: flex;
+    margin: 210px;
+    position: relative;
+    top: -317px;
+    left: -25px;
+    justify-content: space-between;
+}
+
+.feb2 {
+    width: 295px;
+    display: flex;
+    margin: 210px;
+    position: relative;
+    top: -970px;
+    left: 310px;
+    justify-content: space-between;
+}
+
+.neighborhood {
+    width: 295px;
+    display: flex;
+    margin: 210px;
+    position: relative;
+    top: -107px;
+    left: -120px;
+    justify-content: space-between;
+}
+
+.srn {
+    width: 295px;
+    display: flex;
+    margin: 210px;
+    position: relative;
+    top: -642px;
+    left: 210px;
+    justify-content: space-between;
+}
+
+.bcc {
+    width: 295px;
+    display: flex;
+    margin: 210px;
+    position: relative;
+    top: -785px;
+    left: 214px;
+    justify-content: space-between;
+}
+
+.bragg {
+    width: 295px;
+    display: flex;
+    margin: 210px;
+    position: relative;
+    top: -25px;
+    left: -158px;
+    justify-content: space-between;
+}
+
+.cello {
+    width: 295px;
+    display: flex;
+    margin: 210px;
+    position: relative;
+    top: -759px;
+    left: 154px;
+    justify-content: space-between;
+}
+
+.spencer {
+    width: 335px;
+    display: flex;
+    margin: 210px;
+    position: relative;
+    top: -70px;
+    left: -214px;
+    justify-content: space-between;
+}
+
+.whole {
+    width: 295px;
+    display: flex;
+    margin: 250px;
+    position: relative;
+    top: -505px;
+    left: 153px;
+    justify-content: space-between;
+}
+
+.r {
+    width: 295px;
+    display: flex;
+    margin: 210px;
+    position: relative;
+    top: -34px;
+    left: -272px;
+    justify-content: space-between;
+}
+
+.jester {
+    width: 295px;
+    display: flex;
+    margin: 200px;
+    position: relative;
+    top: -535px;
+    left: 123px;
+    justify-content: space-between;
+}
+
+.veryclose {
+    width: 295px;
+    display: flex;
+    margin: 210px;
+    position: relative;
+    top: -150px;
+    left: -222px;
+    justify-content: space-between;
+}
+
+.cherry {
+    width: 355px;
+    display: flex;
+    margin: 200px;
+    position: relative;
+    top: -565px;
+    left: 123px;
+    justify-content: space-between;
+}
+
